@@ -23,6 +23,7 @@ sudo usermod -aG docker jenkins
 wget https://go.dev/dl/go1.17.5.linux-amd64.tar.gz
 rm -rf /usr/local/go && tar -C /usr/local -xzf go1.17.5.linux-amd64.tar.gz
 echo 'export PATH=$PATH:/usr/local/go/bin' >> /etc/profile
+
 5. Скриншот настроек
 ![project_settings](image-1.png)
 ![project_settings](image-2.png)
