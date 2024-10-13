@@ -13,29 +13,20 @@
 
 ### Решение:
 
-[Ссылка на коммит](https://github.com/CryForEternirty/netologyHW/commit/539fd69)
-
 1. установка jenkins and java
-
 ![jenkins](image.png)
 2. Добавляем jenkins в группу докер:
 sudo usermod -aG docker jenkins
-
 3. сделал форк https://github.com/CryForEternirty/CICD-homeworl
-
 4. установил golang:
 wget https://go.dev/dl/go1.17.5.linux-amd64.tar.gz
 rm -rf /usr/local/go && tar -C /usr/local -xzf go1.17.5.linux-amd64.tar.gz
 echo 'export PATH=$PATH:/usr/local/go/bin' >> /etc/profile
-
 5. Скриншот настроек
-
 ![project_settings](image-1.png)
 ![project_settings](image-2.png)
 ![project_settings](image-3.png)
-
 6. Скриншот результата
-
 ![result](image-4.png)
 
 ---
