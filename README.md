@@ -13,7 +13,7 @@
 
 ### Решение:
 
-1. установка jenkins and java
+1. установил jenkins and java
 ![jenkins](image.png)
 2. Добавляем jenkins в группу докер:
 sudo usermod -aG docker jenkins
@@ -43,6 +43,14 @@ echo 'export PATH=$PATH:/usr/local/go/bin' >> /etc/profile
 2. Перепишите сборку из задания 1 на declarative в виде кода.
 
 В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
+
+### Решение:
+
+1. Создал новый проект CICDHW2
+2. Добавил скрипт в настройках pipline:
+![script settings](image-5.png)
+3. Скриншот результата:
+![result](image-6.png)
 
 ---
 
